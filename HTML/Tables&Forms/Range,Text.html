@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="range">Amount of Cheese</label>
+      <input type="range" name="Cheese" id="Cheese" /min="1" max="100" step="7"
+      value="75">
+      <p>
+        <input
+          type="number"
+          name="num"
+          id="num"
+          min="0"
+          max="100"
+          step="5"
+          value="0"
+        />
+      </p>
+      <p>
+        <label for="requst">requst</label> <br />
+        <textarea
+          name=""
+          id="requst"
+          cols="30"
+          rows="10"
+          placeholder="type"
+        ></textarea>
+      </p>
+      <button>Submit</button>
+    </form>
+    <h2>Validation</h2>
+    <form action="/dummy">
+      <label for="first">First Name</label>
+      <input type="text" name="first" id="first" required />
+      <p>
+        <label for="username">username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="5"
+          maxlength="20"
+        />
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
