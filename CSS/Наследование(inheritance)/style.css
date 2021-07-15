@@ -1,0 +1,15 @@
+body {
+  color: pink;
+}
+h1 {
+  color: royalblue;
+}
+section {
+  color: slateblue;
+}
+form {
+  color: red;
+}
+button {
+  color: inherit;
+}
