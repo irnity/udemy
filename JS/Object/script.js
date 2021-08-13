@@ -33,3 +33,13 @@ let fullAddress =
   restaurant.state +
   " " +
   restaurant.zipcode
+
+let arrays = {
+  danielle: 96,
+  thomas: 78,
+}
+arrays.thomas = "C"
+arrays[danielle] = "A"
+arrays.ezra
+arrays.ezra = "B"
+arrays["bob"] = "A-"
