@@ -34,3 +34,15 @@ const badmovies = movie.filter((movies) => {
 const recentmovies = movie.filter((movies) => {
   return movies.year > 2000
 })
+
+function validUserNames(username) {
+  let filteredUsernames = username.filter(function (username) {
+    return username.length < 10
+  })
+  return filteredUsernames
+}
+function validUserNames(username) {
+  return username.filter(function (username) {
+    return username.length < 10
+  })
+}
