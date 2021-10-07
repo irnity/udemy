@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  font-size: 35px;
+}
+#main {
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+}
+#ps {
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+#scoreNum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#playerOnePlus {
+  background-color: rgb(32, 219, 32);
+}
+#playerTwoPlus {
+  background-color: rgb(43, 105, 238);
+}
+#reset {
+  background-color: rgb(243, 72, 72);
+}
+.winner {
+  color: green;
+}
+.loser {
+  color: red;
+}
